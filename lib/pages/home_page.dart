@@ -48,9 +48,15 @@ String name, bio, company, avatar_url, location;
         backgroundColor: Colors.black,
         title: Text("My GitHub", style: TextStyle(color: Colors.white, fontSize: 18),),
         actions: [
-          IconButton(
-              icon: Icon(FontAwesomeIcons.github),
-              onPressed: (){}
+          Padding(
+              padding: EdgeInsets.only(right: 20.0),
+              child: GestureDetector(
+                onTap: () {},
+                child: Icon(
+                  FontAwesomeIcons.github,
+                  size: 40.0,
+                ),
+              )
           ),
         ],
       ),
