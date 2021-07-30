@@ -5,7 +5,7 @@ import 'package:http/http.dart';
 import 'package:mygithub/models/user_model.dart';
 
 class Network {
-  static String BASE = 'https://api.github.com';
+  static String BASE = 'api.github.com';
 
 
   // Http APIs
